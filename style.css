@@ -1,0 +1,169 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+  
+h1 {
+    font-size: 54px;
+  }
+
+h2 {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+  
+/*link */
+a {
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+  position: relative;
+}
+  
+/* Media for fading link hover */
+@media (-webkit-min-device-pixel-ratio:0) {
+  a {
+    background-color: black;
+    background-image: -webkit-linear-gradient(left, LimeGreen 0%, yellow 50%, transparent 50%);
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    color: transparent;
+    -webkit-background-clip: text;
+  }
+  a:hover {
+    background-position: 0 0;
+    color: transparent;
+  }
+  a:active {
+    background-position: 0 0;
+    color: transparent;
+    top: 2px;
+  }
+}
+  
+/* main */
+.elin {
+  position: relative;
+  float: left;
+  text-align: right;
+  width: 40%;
+}
+  
+.hi {
+  position: relative;
+  float: right;
+  width: 55%;
+  padding-left: 50px;
+  height: 300px;
+}
+  
+img {
+  width: 300px;
+  border-radius: 50%;
+  border: 10px solid black;
+}
+
+img:hover {
+  border-color: deeppink;
+}
+
+.me {
+  transition: 1.5s;
+}
+
+.me:hover {
+  background-color: deeppink;
+  font-style: italic;
+}
+
+#hyper {
+  font-size: 36px;
+}
+
+#hyper:hover {
+  color: black;
+}
+  
+  
+/* navbar */
+.nav {
+  padding: 20px;
+  margin-bottom: 100px;
+}
+  
+li {
+  display: inline-block;
+  margin: 20px;
+}
+  
+  
+/* Portfolio */
+.portfolio {
+  text-align: center;
+  margin: 80px;
+}
+  
+  
+/* Contact side */
+.contact {
+  text-align: center;
+  margin: 80px;
+}
+  
+.fa {
+  margin: 10px;
+}
+  
+.socialmedia {
+  font-size: 3.0rem;
+}
+  
+  
+/* resposive for smaler divise */
+@media only screen and (max-width: 1020px) {
+  .elin {
+    width: 100%;
+    text-align: center;
+  } 
+  .hi {
+    width: 100%;
+    text-align: center;
+  }
+}
+  
+  
+/* resposive for phone */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  a {
+    font-size: 18px;
+  }
+  img {
+    width: 150px;
+  }
+  #sm {
+    font-size: 2.5rem;
+  }
+  .fa {
+    margin: 5px;
+  }
+  li {
+    margin: 9px;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .portfolio {
+    margin: 20px;
+  }
+}
