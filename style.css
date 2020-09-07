@@ -44,7 +44,8 @@ a {
     top: 2px;
   }
 }
-  
+
+
 /* main */
 .elin {
   position: relative;
@@ -61,14 +62,18 @@ a {
   height: 300px;
 }
   
-img {
+.elin-img {
   width: 300px;
   border-radius: 50%;
-  border: 10px solid black;
+  border: 7px solid white;
+  padding: 4px;
 }
 
-img:hover {
-  border-color: deeppink;
+.elin-img:hover {
+  border-top-color: deeppink;
+  border-bottom-color: rgb(0, 162, 255);
+  border-left-color: limegreen;
+  border-right-color: yellow;
 }
 
 .me {
@@ -86,6 +91,8 @@ img:hover {
 
 #hyper:hover {
   color: black;
+  background-color: rgb(0, 162, 255);
+  font-style: italic;
 }
   
   
@@ -105,6 +112,31 @@ li {
 .portfolio {
   text-align: center;
   margin: 80px;
+}
+
+.projects {
+  width: 80%;
+  text-align: center;
+}
+
+.box-left {
+  float: left;
+  width: 40%;
+}
+
+.box-right {
+  float: right;
+  width: 40%;
+}
+
+.card {
+  border: 1px solid rgb(179, 179, 179);
+  border-radius: 10px;
+  text-align: left;
+}
+
+.card-img {
+  max-width: 500px;
 }
   
   
