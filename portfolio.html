@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Elins portfolio</title>
-    
+
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-  </head>  
-  
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
   <body>
-    
     <div class="nav">
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -21,35 +23,52 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
-    
+
     <div class="portfolio">
       <h1>This is my portfolio!</h1>
     </div>
-    
+
     <div class="projects">
       <div class="box">
-        <a href="https://elinamren.github.io/resume/">
-          <div class="project">
-            <h2>Project 1</h2>
-            <h3>Make a personal site</h3>
-            <p>I wanted to make a single site with different sections.</p>
-          </div>
-        </a>
+        <div class="project">
+          <h2>Project 1</h2>
+          <p class="plus-one">+</p>
+          <h3>Make a personal webpage</h3>
+        </div>
+        <div class="project-about-one hidden">
+          <p>
+            I wanted to make a single site with different sections and a fixed
+            navbar. I also wanted something to happen and add some animation.
+          </p>
+          <a href="https://elinamren.github.io/resume/">Elin's Resume</a>
+        </div>
       </div>
 
       <div class="box">
         <div class="project">
           <h2>Project 2</h2>
-          <h3>Starts sep 14th</h3>
+          <p class="plus-two">+</p>
+          <h3>Make an interactive webpage with JavaScript</h3>
+        </div>
+        <div class="project-about-two hidden">
+          <p>
+            I wanted to make a morning routine bord with six cards. Every card
+            can be clicked. Two cards inclute a time function. When all the
+            cards ar clicked you finished all the routine tasks and will end up
+            at a hidden div. I also wanted some sounds.
+          </p>
+          <a href="https://elinamren.github.io/goodmorning/">Good Morning!</a>
         </div>
       </div>
 
       <div class="box">
         <div class="project">
           <h2>Project 3</h2>
+          <h3>More projects will come..</h3>
         </div>
       </div>
 
+      <!--
       <div class="box">
         <div class="project">
           <h2>Project 4</h2>
@@ -61,13 +80,14 @@
           <h2>Project 5</h2>
         </div>
       </div>
+
       <div class="box">
         <div class="project">
           <h2>Project 6</h2>
         </div>
       </div>
-    </div>
+    --></div>
 
-    
+    <script src="script.js"></script>
   </body>
 </html>
